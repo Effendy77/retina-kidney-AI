@@ -1,0 +1,17 @@
+# configs/esrd_survival.yaml
+
+model:
+  backbone: vit_base_patch16_224
+  dropout: 0.1
+  pretrained: true
+
+training:
+  batch_size: 16
+  epochs: 5
+  lr: 1e-4
+  weight_decay: 1e-5
+
+data:
+  train_csv: data/folds/train.csv
+  val_csv: data/folds/val.csv
+  image_root: data/images
