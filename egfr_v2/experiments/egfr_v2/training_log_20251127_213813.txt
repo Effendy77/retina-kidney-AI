@@ -1,0 +1,13 @@
+[INFO] Validating input paths...
+[INFO] All input paths validated.
+
+[INFO] CSV contains 8358 rows.
+
+[INFO] PyTorch version: 2.7.1+cu118
+[INFO] CUDA available: True
+[INFO] GPU: NVIDIA RTX A5000
+[INFO] Output directory: experiments/egfr_v2
+[INFO] Log file: experiments/egfr_v2/training_log_20251127_213813.txt
+
+[INFO] 5-Fold training script completed successfully.
+[INFO] Summary saved at: experiments/egfr_v2/cv_summary.csv
