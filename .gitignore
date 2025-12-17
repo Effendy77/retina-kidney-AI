@@ -35,3 +35,13 @@ __pycache__/
 .ipynb_checkpoints/
 *.log
 .DS_Store
+
+# ===== eGFR / survival experiments (DO NOT COMMIT) =====
+egfr_ablation/experiments/
+egfr_ablation/**/experiments/
+egfr_ablation/data/
+**/checkpoints/
+**/checkpoints_*
+**/*.pth
+**/*.pt
+**/*.ckpt
