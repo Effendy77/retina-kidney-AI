@@ -45,3 +45,29 @@ egfr_ablation/data/
 **/*.pth
 **/*.pt
 **/*.ckpt
+# outputs
+egfr_ablation_v2/experiments/
+egfr_ablation_v2/**/experiments/
+
+# model weights / checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# data (UKB-derived)
+egfr_ablation_v2/data/
+data/
+*.csv
+
+# caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# env
+.venv/
+env/
+retina-renal-ai/
+egfr_ablation_v2/supplementary/egfr_ablation_results/figures/
+egfr_ablation_v2/supplementary/egfr_ablation_results/tables/
